@@ -1,0 +1,108 @@
+{
+  "pages": [
+    // pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+    {
+      "path": "pages/index/index",
+      "style": {
+        "navigationBarTitleText": "ING"
+      }
+    },
+    {
+      "path": "pages/share/share",
+      "style": {
+        "navigationBarTitleText": "分享"
+      }
+    },
+    {
+      "path": "pages/remember/remember",
+      "style": {
+        "navigationBarTitleText": "纪念日"
+      }
+    },
+    {
+      "path": "pages/photo/photo",
+      "style": {
+        "navigationBarTitleText": "相册"
+      }
+    },
+    {
+      "path": "pages/travel/travel",
+      "style": {
+        "navigationBarTitleText": "旅行足迹"
+      }
+    },
+    {
+      "path": "pages/mail/mail",
+      "style": {
+        "navigationBarTitleText": "邮箱"
+      }
+    },
+    {
+      "path": "pages/mail/edit/edit",
+      "style": {
+        "navigationBarTitleText": "编辑"
+      }
+    },
+    {
+      "path": "pages/mail/detail/detail",
+      "style": {
+        "navigationBarTitleText": "详情"
+      }
+    },
+    {
+      "path": "pages/todo/todo",
+      "style": {
+        "navigationBarTitleText": "心愿"
+      }
+    },
+    {
+      "path": "pages/todo/detail/detail",
+      "style": {
+        "navigationBarTitleText": "详细"
+      }
+    },
+    {
+      "path": "pages/dialog/dialog",
+      "style": {
+        "navigationBarTitleText": "对话"
+      }
+    },
+    {
+      "path": "pages/user/index",
+      "style": {
+        "navigationBarTitleText": "我的"
+      }
+    }
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarBackgroundColor": "#ececec"
+  },
+  "tabBar": {
+    "color": "#CD919E",
+    "selectedColor": "#F44444",
+    "borderStyle": "white",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/imgs/tab/tab1.png",
+        "selectedIconPath": "static/imgs/tab/tab1-active.png",
+        "text": "恋爱ing"
+      },
+      {
+        "pagePath": "pages/dialog/dialog",
+        "iconPath": "static/imgs/tab/tab2.png",
+        "selectedIconPath": "static/imgs/tab/tab2-active.png",
+        "text": "对话"
+      },
+      {
+        "pagePath": "pages/user/index",
+        "iconPath": "static/imgs/tab/tab3.png",
+        "selectedIconPath": "static/imgs/tab/tab3-active.png",
+        "text": "我们"
+      }
+    ]
+  }
+}
